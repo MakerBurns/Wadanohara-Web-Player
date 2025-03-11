@@ -1,0 +1,80 @@
+﻿ 
+ 
+ Wadanohara and the Great Blue Sea ver 1.01 Manual de Instrucciones
+ 
+ 
+ ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+ ◆                                                                  ◆
+ ◆  [Título] Wadanohara and the Great Blue Sea                      ◆
+ ◆  [Productor] Deep-Sea Prisoner                                   ◆
+ ◆  [Website] http://okegom.web.fc2.com/                            ◆
+ ◆  [Contacto] okegom@yahoo.co.jp                                   ◆
+ ◆  [Herramienta] RPG Maker 2000 VALUE!                             ◆
+ ◆  [Inglés] vgperson                                               ◆
+ ◆  [Sitio Inglés] http://vgperson.com/games/wadanohara.htm         ◆
+ ◆  [Español] Tsumin                                                ◆
+ ◆  [SitEsp] http://x-tsubasa-x.tumblr.com/oounabara-to-wadanohara  ◆
+ ◆                                                                  ◆
+ ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
+ 
+ 
+ 
+ 
+ [Resumen]
+ 
+  Este es un juego gratuito. Ejecuta "RPG_RT.exe" para empezar.
+  Las batallas no son muy difíciles, ya que se concentra en la historia.
+  
+  ◆  El juego no correrá a menos que detecte el RTP; dirá "El RPG Maker 2000 RTP is not installed."
+     Si tienes este error, corre el "RTPFaker.exe" incluido y luego el RPG_RT.exe de nuevo.
+ 
+ 
+ 
+ [Movimiento Básico]
+ 
+  Confirmar: tecla Z
+  Cancelar: tecla X
+  Abrir Menú: tecla X
+  Mover/Seleccionar: Flechas
+  Regresar al Título: F12
+ 
+ 
+ 
+ [Noticias]
+ 
+  - El autor no se hace responsable por problemas causados al correr el software.
+    Aceptas tomar esta responsabilidad al iniciar el juego.
+  - La copia no aprobada y redistribución de los materiales y archivos está prohibida.
+  - Hay un grado medio de violencia en el juego, así que ten cuidado.
+ 
+ 
+ 
+ [Agradecimiento Especial]
+ 
+  Gracias a las páginas de abajo por su música y efectos de sonido.
+  El copyright pertenece a los creadores.
+ 
+  Amor Kana  http://amorkana.jp/
+  *CAMeLIA*  http://agnello-pecora.chu.jp/CAMeLIA/index.html 
+  Cnoc  http://cnoc.web.fc2.com/
+  Hagall  http://hagall.hacca.jp/
+  On-Jin http://www.yen-soft.com/ssse/
+  Senses Circuit  http://www.senses-circuit.com/
+  Music Egg http://ontama-m.com/index.html
+  Maou Damashii http://maoudamashii.jokersounds.com/
+  Free BGM/Sound Effects MusMus http://musmus.main.jp/
+ 
+ 
+ 
+ [El BONUS.zip incluido]
+ 
+  Lleva a una página con ilustraciones extra y cómics para aquéllos que hayan terminado el juego.
+  La contraseña para abrirlo está escrita en una nota en la Sala Extra luego del final.
+ 
+ 
+ 
+ [Changelog]
+   12/21/2013...ver 1.00 Release
+   01/20/2014...ver 1.01 Typo fixes, bug fixes.
+   03/18/2014...ver 1.02 Typo fixes, other.
+   04/04/2014...ver 1.03 Typo fixes, bug fixes.

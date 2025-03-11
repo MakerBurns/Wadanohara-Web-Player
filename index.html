@@ -207,6 +207,29 @@
   </div>
 
   <!-- New -->
+
+  <div id="controls">
+    <img
+      src="data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTUgMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1IiBoZWlnaHQ9IjI1Ij48cGF0aCBkPSJNMTMuNSAxMy41SDEwbTMuNSAwVjEwbTAgMy41bC00LTRtLjUtOGgzLjVtMCAwVjVtMC0zLjVsLTQgNE01IDEuNUgxLjVtMCAwVjVtMC0zLjVsNCA0bS00IDQuNXYzLjVtMCAwSDVtLTMuNSAwbDQtNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjwvcGF0aD48L3N2Zz4="
+      alt="Controls">
+    <button id="showSavbonus">Languages</button>
+  </div>
+
+  <div id="savbonusModal" class="modal">
+    <div class="modal-content-credits">
+      <span class="close">&times;</span>
+      <h2>Language Selector</h2>
+      <p id="savbonusText">
+      <p>This game is available in the following languages:</p>
+      <ul>
+        <li><a href="https://makerburns.github.io/Wadanohara-Web-Player/?game=Wadanohara">English</a></li>
+        <li><a href="https://makerburns.github.io/Wadanohara-Web-Player/?game=Wadanohara-ESP">Spanish</a></li>
+      </ul>
+      <p>Click the links to go to whatever version you prefer.</p>
+      </p>
+    </div>
+  </div>
+
   <div id="controls">
     <img
       src="data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTUgMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1IiBoZWlnaHQ9IjI1Ij48cGF0aCBkPSJNMTMuNSAxMy41SDEwbTMuNSAwVjEwbTAgMy41bC00LTRtLjUtOGgzLjVtMCAwVjVtMC0zLjVsLTQgNE01IDEuNUgxLjVtMCAwVjVtMC0zLjVsNCA0bS00IDQuNXYzLjVtMCAwSDVtLTMuNSAwbDQtNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjwvcGF0aD48L3N2Zz4="
@@ -249,11 +272,36 @@
       <span class="close">&times;</span>
       <h2>List of Uploaded Games</h2>
       <p id="gamelistText">
-        You can find a list of all uploaded games <a href="https://makerburns.github.io/Game-List/">by clicking this
-          link</a>.
+        You can find a list of all uploaded games <a href="https://makerburns.github.io/Game-List/">by clicking
+          this link</a>.
       </p>
     </div>
   </div>
+
+  <script>
+    const showSavbonusButton = document.getElementById('showSavbonus');
+    const sbmodal = document.getElementById('savbonusModal');
+    const sbcloseButton = sbmodal.querySelector('.close');
+
+    function displaySaveBonus() {
+      sbmodal.style.display = 'block';
+    }
+
+    function closesbModal() {
+      sbmodal.style.display = 'none';
+    }
+
+    showSavbonusButton.addEventListener('click', displaySaveBonus);
+    sbcloseButton.addEventListener('click', closesbModal);
+
+    window.addEventListener('click', (event) => {
+      if (event.target === sbmodal) {
+        closesbModal();
+      }
+    });
+
+    sbmodal.style.display = 'none';
+  </script>
 
   <script>
 

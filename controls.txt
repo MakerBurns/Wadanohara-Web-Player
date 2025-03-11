@@ -1,2 +1,7 @@
+Confirm: Z key
+Cancel: X key
+Open Menu: X key
+Move/Select: Arrow keys
+Return to Title: F12
 Screenshot: [F7]
 Download/Upload save: [Shift] in save menu.
